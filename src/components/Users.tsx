@@ -43,9 +43,6 @@ const Users: React.FC<UsersProps> = ({ selectedProject }) => {
   // Generate initial user data
   const generateUsers = (): User[] => {
     const users: User[] = [];
-    const roles: Array<'Super Admin' | 'Project Admin' | 'Sales User' | 'Viewer' | 'Customer'> = [
-      'Super Admin', 'Project Admin', 'Sales User', 'Viewer', 'Customer'
-    ];
     
     const projects = ['GreenX', 'Timber', 'Mountain Mist', 'Sanveda', 'All Projects'];
     const availableLanguages = ['English', 'Telugu', 'Kannada', 'Hindi', 'Tamil', 'Malayalam'];
